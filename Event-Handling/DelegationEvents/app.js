@@ -1,3 +1,5 @@
+//EVENTO POR CADA ELEMENTO
+
 // const listItems = document.querySelectorAll("li");
 
 // listItems.forEach((item) => {
@@ -5,6 +7,8 @@
 //     event.target.classList.toggle("highlight");
 //   });
 // });
+
+//EVENTO POR MEDIO DEL CONTENEDOR PADRE
 
 const list = document.querySelector("ul");
 

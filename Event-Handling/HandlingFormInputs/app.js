@@ -1,7 +1,7 @@
-const form = document.getElementById("myForm");
+const form = document.getElementById("myForm");//tener acceso al formulario completo por medio del id
 
 form.addEventListener("submit", (event) => {
-  event.preventDefault();
+  event.preventDefault();//previene el comportamiento por defecto
   const name = form.elements["name"].value;
   console.log(name);
   if (name.length < 3) {
